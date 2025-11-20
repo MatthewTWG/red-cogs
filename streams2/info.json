@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
+	"name": "Streams",
+	"short": "Enhanced stream notifications with platform-specific role mentions.",
+	"description": "Get notifications for Twitch, YouTube, and Picarto streams. Enhanced version with platform-specific role mentions allowing different roles to be mentioned for each platform.",
+	"end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+	"install_msg": "You've just installed the Streams cog!\nType `[p]help streamset` to configure stream alerts, and `[p]help streamalert` to manage stream notifications.",
+	"author": [
+		"Red-DiscordBot",
+		"MatthewTWG"
+	],
+	"required_cogs": {},
+	"requirements": [],
+	"tags": [
+		"streams",
+		"twitch",
+		"youtube",
+		"picarto",
+		"notifications"
+	],
+	"min_bot_version": "3.5.0",
+	"hidden": false,
+	"disabled": false,
+	"type": "COG"
+}

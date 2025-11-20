@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
+	"name": "Misc",
+	"short": "Miscellaneous server utilities including mass role management.",
+	"description": "Provides miscellaneous server administration utilities including commands to add or remove roles from all server members at once.",
+	"end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+	"install_msg": "You've just installed the Misc cog!\nType `[p]help massrole` to get started with mass role management commands.",
+	"author": [
+		"MatthewTWG"
+	],
+	"required_cogs": {},
+	"requirements": [],
+	"tags": [
+		"admin",
+		"roles",
+		"moderation"
+	],
+	"min_bot_version": "3.5.0",
+	"hidden": false,
+	"disabled": false,
+	"type": "COG"
+}
