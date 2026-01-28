@@ -7,6 +7,7 @@ Posts in a channel every time a new video is added to a YouTube channel.
 Enhanced version of [mr42-cogs YouTube](https://github.com/Mister-42/mr42-cogs) with the following improvement:
 
 - **Role mentions placed before embed**: Mentions appear before the embed content instead of within the message, making notifications more visible and reliable
+- **Use new thumbnails**: Uses maxresdeault instead hqdefault for embeds
 
 ## Advantages over `Tube`
 

@@ -726,7 +726,7 @@ class YouTube(commands.Cog):
 			embed.title = entry['title']
 			embed.url = entry['link']
 			embed.set_author(name=entry['author'], url=entry['author_detail']['href'])
-			embed.set_image(url=f"https://i.ytimg.com/vi/{entry['yt_videoid']}/hqdefault.jpg")
+			embed.set_image(url=f"https://i.ytimg.com/vi/{entry['yt_videoid']}/maxresdefault.jpg")
 			embed.timestamp = datetime.strptime(entry['updated'], YT_FORMAT)
 			icon = discord.File(bundled_data_path(self) / "youtube_social_icon_red.png", filename="youtube.png")
 			embed.set_footer(text="YouTube", icon_url="attachment://youtube.png")
